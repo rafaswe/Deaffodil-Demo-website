@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website-Contact us</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img class="logoimg" src="image/logo.png" alt="Daffodil's Logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index-about.html">ABOUT</a></li>
+                    <li><a href="index-course.html">COURSE</a></li>
+                    <li><a href="index-blog.html" >BLOG</a></li>
+                    <li><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- contact us starts -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.788556429705!2d90.37417781498144!3d23.75491838458724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sbd!4v1624829925825!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Daffodil Road, Ashulia</h5>
+                        <p> Dhaka, Bangladesh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Cell: 01833102806, 01713493050-1, 01847140068 <br>Tel: 88-02-9138234-5, 9116774, 9136694.</h5>
+                        <p>Saturday to Thursday, 10AM to (PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>counselor@daffodilvarsity.edu.bd <br> admission@daffodilvarsity.edu.bd </h5>
+                        <p>Mail us for more query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="mailto:afroja@daffodil.edu.bd"  method="POST" enctype="text/plain" class="content-form">
+                    <p><input class="txt-type" type="text" placeholder="Your Name" name="Name"></p>
+                    <p><input class="txt-type" type="email" placeholder="Your Email" name="Email"></p>
+                    <p><input class="txt-type" type="text" placeholder="Subject" name="Subject"></p>
+                    <p><textarea name="Message" id="details" rows="5" placeholder="Write here details"></textarea></p>
+                    <button type="submit" class="red-btn" style="margin-right: 20px;">SEND</button>
+                    <button type="reset" class="red-btn"> RESET</button>
+                    </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact us ends -->
+
+
+
+    <!-- Footer starts -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Our 150 Acre campus is full of life and positive energy, fostering education and innovation for more than 20000 students.
+            <br> For Knowing more, you can Contact here also.</p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/daffodilvarsity.edu.bd" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/daffodilvarsity" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/daffodil.university/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/daffodil-international-university/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made by Mahiya Rahman Rafa <i class="fa fa-heart-o"></i> </p>
+    </section>
+<!-- Footer ends -->
+    
+    <!-- javascript parts for toggole menu-->
+    <script src="https://use.fontawesome.com/8a54e14498.js"></script>
+    <script>
+        var navlink =document.getElementById("navlink");
+
+        function showmenu(){
+            navlink.style.right= "0";
+        }
+
+        function hidemenu(){
+            navlink.style.right= "-200px";
+        }
+
+    </script>
+</body>
+</html>

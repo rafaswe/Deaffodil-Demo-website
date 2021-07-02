@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website-About</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img class="logoimg" src="image/logo.png" alt="Daffodil's Logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index-about.html">ABOUT</a></li>
+                    <li><a href="index-course.html">COURSE</a></li>
+                    <li><a href="index-blog.html">BLOG</a></li>
+                    <li><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About US</h1>
+        
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Bangladesh's One of te biggest University</h1>
+                <p>Established in 2002, Daffodil International University is a non-profit private higher education institution located in the the urban setting of the metropolis of Dhaka (population range of over 5,000,000 inhabitants). Officially accredited/recognized by the University Grants Commission of Bangladesh, Daffodil International University (DIU) is a large (enrollment range: 15,000-19,999 students) coeducational higher education institution. Daffodil International University (DIU) offers courses and programs leading to officially recognized higher education degrees such as pre-bachelor degrees (i.e. certificates, diplomas, associate or foundation degrees), bachelor degrees, master degrees in several areas of study. This 15 years old H.E. institution has a selective admission policy based on entrance examinations and students' past academic record and grades. The admission rate range is 70-80% making this Bangladeshi higher education organization a somewhat selective institution. International applicants are eligible to apply for enrollment. DIU also provides several academic and non-academic facilities and services to students including a library, housing, sport facilities and/or activities, financial aids and/or scholarships, study abroad and exchange programs, as well as administrative services.Show more</p>
+                <a href="" class="red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/aboutus.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer starts -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Our 150 Acre campus is full of life and positive energy, fostering education and innovation for more than 20000 students.
+            <br> For Knowing more, you can Contact here also.</p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/daffodilvarsity.edu.bd" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/daffodilvarsity" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/daffodil.university/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/daffodil-international-university/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made by Mahiya Rahman Rafa <i class="fa fa-heart-o"></i> </p>
+    </section>
+<!-- Footer ends -->
+    <!-- javascript parts for toggole menu-->
+    <script src="https://use.fontawesome.com/8a54e14498.js"></script>
+    <script>
+        var navlink =document.getElementById("navlink");
+
+        function showmenu(){
+            navlink.style.right= "0";
+        }
+
+        function hidemenu(){
+            navlink.style.right= "-200px";
+        }
+
+    </script>
+</body>
+</html>
